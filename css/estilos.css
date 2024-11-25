@@ -1,0 +1,53 @@
+body.html{
+    height: 100%;
+    width: 100%;
+}
+
+/* login */
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container > .login,
+.main-container > .hero-body
+{
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    margin-top: 175px; 
+}
+.form-inline{
+    display: inline-flex;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 60px); /* Restar la altura del navbar */
+    margin: 0;
+    padding-top: 20px; /* Ajusta este margen si es necesario */
+}
+
+/* Estilo del título */
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+/* Estilo de la imagen inicial */
+.imagen.inicial {
+    max-width: 100%; /* Ajusta al 100% del contenedor */
+    height: auto; /* Mantiene la proporción original */
+    max-width: 800px; /* Tamaño máximo para la imagen */
+    min-width: 500px; /* Tamaño mínimo para la imagen */
+    margin-top: 20px; /* Espacio entre el título y la imagen */
+}
+
+
